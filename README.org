@@ -1,0 +1,22 @@
+* booty
+
+Booty.
+
+** Getting Started
+
+*** Prereqs
+
+- =as= (binutils), =curl=, =ld= (binutils), =GNU make=
+- [[https://bellard.org/tinyemu][TinyEmu]] :: by Fabrice Bellard
+  1. Download [[https://bellard.org/tinyemu/tinyemu-2019-12-21.tar.gz][tar.gz]]
+  2. =tar -xzvf tinyemu-2019-12-21.tar.gz=
+  3. =cd tinyemu-2019-12-21=
+  4. =make=
+      - install dev dependencies if needed,
+        e.g. =libcurl4-gnutls-dev=, =libsdl1.2-dev=, =libssl-dev=
+      - should create an executable called =temu=
+  5. =mv temu ~/.local/bin= or any path in =$PATH=
+
+*** Build & Run
+
+Build with =make build=; build & run with =make run=.
